@@ -5,16 +5,12 @@ name: TAG
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: ["lts/*"]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     env:
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
     steps:
