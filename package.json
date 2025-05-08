@@ -1,5 +1,5 @@
 {
-  "name": "simple-react-seo",
+  "name": "@misterzik/simple-react-seo",
   "version": "1.0.0",
   "description": "A React library for managing SEO metadata on a per-page basis",
   "main": "index.js",
@@ -22,6 +22,6 @@
     "url": "git+https://github.com/misterzik/simple-react-seo.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/misterzik"
   }
 }
