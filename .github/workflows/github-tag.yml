@@ -2,9 +2,11 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
 name: TAG
+
 on:
   push:
     branches: [main]
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,6 +14,7 @@ jobs:
       matrix:
         node-version: ["lts/*"]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
     env:
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
     steps:
