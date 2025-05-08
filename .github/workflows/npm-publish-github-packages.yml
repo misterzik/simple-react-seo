@@ -7,7 +7,18 @@ on:
     workflows: ["TAG"]
     types: [completed]
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "lts/*"
+      - run: npm install
+      # - run: npm run build # Assuming you have a build script
+
   publish-gpr:
+    needs: build
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -21,3 +32,16 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  publish-npm:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "lts/*"
+          registry-url: https://registry.npmjs.org/
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
