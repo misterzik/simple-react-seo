@@ -20,5 +20,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/misterzik/simple-react-seo.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
