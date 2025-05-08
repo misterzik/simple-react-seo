@@ -1,6 +1,6 @@
 {
   "name": "@misterzik/simple-react-seo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React library for managing SEO metadata on a per-page basis",
   "main": "index.js",
   "module": "dist/index.esm.js",
@@ -21,7 +21,14 @@
     "type": "git",
     "url": "git+https://github.com/misterzik/simple-react-seo.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/misterzik"
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "tslib": "^2.6.2"
+  },
+  "scripts": {
+    "build": "npm install"
   }
 }
