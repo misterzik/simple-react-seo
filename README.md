@@ -44,6 +44,7 @@ import { SEOProvider, SEOHead } from "simple-react-seo";
 const defaultSEO = {
   title: "My Website",
   description: "A website built with Simple React SEO",
+  keywords: "my website, website",
   openGraph: {
     type: "website",
     siteName: "My Website",
