@@ -1,6 +1,6 @@
 {
   "name": "@misterzik/simple-react-seo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React library for managing SEO metadata on a per-page basis",
   "main": "index.js",
   "module": "dist/index.esm.js",
@@ -15,7 +15,7 @@
     "head",
     "typescript"
   ],
-  "author": "MisterZik",
+  "author": "Nick <MisterZik> R",
   "license": "MIT",
   "repository": {
     "type": "git",
