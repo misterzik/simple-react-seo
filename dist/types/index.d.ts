@@ -43,6 +43,10 @@ export interface SEOMetadata {
      * No follow flag
      */
     noFollow?: boolean;
+    /**
+     * Meta keywords
+     */
+    keywords?: string;
 }
 /**
  * Open Graph metadata interface
