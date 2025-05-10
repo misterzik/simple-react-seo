@@ -1,3 +1,5 @@
+![alt text](simple-react-seo.png "Simple React SEO")
+
 # Simple React SEO
 
 A TypeScript React library for managing SEO metadata on a per-page basis. This library provides components to easily set and manage SEO-related tags in your React application.
@@ -12,14 +14,21 @@ yarn add simple-react-seo
 
 ## Features
 
-- ✅ TypeScript support
-- ✅ Per-page SEO management
-- ✅ Support for Open Graph and Twitter card metadata
-- ✅ JSON-LD structured data support
-- ✅ SEO context provider
-- ✅ Customizable meta tags
-- ✅ Canonical URL support
-- ✅ Robots directives (noindex, nofollow)
+&nbsp;&nbsp;✅ TypeScript support
+
+&nbsp;&nbsp;✅ Per-page SEO management
+
+&nbsp;&nbsp;✅ Support for Open Graph and Twitter card metadata
+
+&nbsp;&nbsp;✅ JSON-LD structured data support
+
+&nbsp;&nbsp;✅ SEO context provider
+
+&nbsp;&nbsp;✅ Customizable meta tags
+
+&nbsp;&nbsp;✅ Canonical URL support
+
+&nbsp;&nbsp;✅ Robots directives (noindex, nofollow)
 
 ## Usage
 
