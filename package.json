@@ -1,6 +1,6 @@
 {
   "name": "@misterzik/simple-react-seo",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A React library for managing SEO metadata on a per-page basis",
   "main": "index.js",
   "module": "dist/index.esm.js",
